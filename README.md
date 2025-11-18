@@ -18,8 +18,8 @@ From the fragments fell one final thread — and became **you**, the Threadborne
 - 8+ endings ranging from restoration to total destruction
 - Subtle Christian themes of creation, rebellion, and redemption
 
-### Quick Look
-![Yellow Threadborne](docs/assets/concept_art/threadborne_yellow_poster.png)
+### Quick Look - Bosses (Sage, Monarch, Hermit)
+![Sage](docs/assets/concept_art/sage_golden.png)
 ![Monarch](docs/assets/concept_art/monarch_throne.png)
 ![Hermit](docs/assets/concept_art/hermit_fisher.png)
 
