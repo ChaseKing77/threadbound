@@ -24,8 +24,10 @@ func _on_body_entered(body):
 		popup.visible = true
 		if Input.is_action_just_pressed("move_up"):
 			body.set_archetype(color)
+			if body.archetype and body.archetype.has_method("set_active"):
+				body.archetype.set_active(true)
 			print("Selected color: ", color)
-
+			
 func _on_body_exited(body):
 	if body.name == "Player":
 		body._on_interactable_exited(self)
