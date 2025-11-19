@@ -186,7 +186,7 @@ func set_active(active: bool) -> void:
 	if not active and breakable_shader:
 		breakable_shader.set_shader_parameter("glow_intensity", 0.0)
 		breakable_shader.set_shader_parameter("crack_intensity", 0.0)
-		target_glow = current_glow = current_cracks = 0.0
+	##	target_glow = current_glow = current_cracks = 0.0
 	_update_debug("RED: " + ("ACTIVE" if active else "INACTIVE"))
 
 # ===================================================================

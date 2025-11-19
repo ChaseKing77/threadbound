@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 # Threadbound 🧵
 
+© 2025 Chase King (ChaseKing77). All rights reserved for art, design, and story.  
+Code is MIT-licensed (see LICENSE). Feel free to fork/learn from it, but please don’t make commercial clones without asking!
+
 ![Title Art](docs/assets/concept_art/title_stained_glass.png)
 
 **A painterly 2D Metroidvania about threads, destiny, and the freedom to choose.**
