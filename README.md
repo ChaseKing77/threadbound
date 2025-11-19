@@ -39,8 +39,6 @@ A painterly 2D Metroidvania about threads, destiny, and the freedom to choose.
 
 📸 Screenshots / Art Direction (optional)
 
-(We can add images later — no rush)
-
 🎮 About the Game
 
 Thread Bound is a 2D Metroidvania built in Godot. The world is centered around weaving, fate, and choice.
