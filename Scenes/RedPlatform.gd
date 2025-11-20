@@ -2,7 +2,7 @@ extends RigidBody2D
 
 @export var max_pull_dist: float = 650.0
 @export var return_speed: float = 600.0
-@export var return_delay: float = 2.0  # ← 2 seconds
+@export var return_delay: float = 2.0
 @export var auto_return_delay: float = 3.0
 
 var anchor_pos: Vector2
@@ -23,7 +23,6 @@ func _ready():
 	physics_material_override = PhysicsMaterial.new()
 	physics_material_override.bounce = 0.0
 	physics_material_override.friction = 1.0
-
 	collision_layer = 4
 	collision_mask = 3
 
@@ -31,7 +30,6 @@ func _physics_process(delta):
 	var to_anchor = anchor_pos - global_position
 	var dist = to_anchor.length()
 
-	# === AUTO-RETURN TIMER (when attached) ===
 	if is_attached:
 		auto_return_timer += delta
 		if auto_return_timer >= auto_return_delay:
@@ -41,7 +39,6 @@ func _physics_process(delta):
 	else:
 		auto_return_timer = 0.0
 
-	# === RETURN TIMER (after detach) ===
 	if not is_attached:
 		if return_timer > 0:
 			return_timer -= delta
@@ -73,7 +70,7 @@ func attach_grapple():
 
 func detach_grapple():
 	is_attached = false
-	return_timer = return_delay  # ← Start 2s countdown
+	return_timer = return_delay
 	auto_return_timer = 0.0
 
 func set_in_range(active: bool):
@@ -82,8 +79,7 @@ func set_in_range(active: bool):
 	else:
 		platform_tiles.modulate = Color.WHITE
 
-# === CRITICAL: RESET RETURN TIMER ON ANY PULL ===
 func reset_return_timer():
 	if is_attached:
-		return_timer = -1.0  # ← Cancel return
-		auto_return_timer = 0.0  # ← Reset auto-return
+		return_timer = -1.0
+		auto_return_timer = 0.0
