@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 # Threadbound 🧵
 
+© 2025 Chase King (ChaseKing77). All rights reserved for art, design, and story.  
+Code is MIT-licensed (see LICENSE). Feel free to fork/learn from it, but please don’t make commercial clones without asking!
+
 ![Title Art](docs/assets/concept_art/title_stained_glass.png)
 
 **A painterly 2D Metroidvania about threads, destiny, and the freedom to choose.**
@@ -18,8 +21,8 @@ From the fragments fell one final thread — and became **you**, the Threadborne
 - 8+ endings ranging from restoration to total destruction
 - Subtle Christian themes of creation, rebellion, and redemption
 
-### Quick Look
-![Yellow Threadborne](docs/assets/concept_art/threadborne_yellow_poster.png)
+### Quick Look - Bosses (Sage, Monarch, Hermit)
+![Sage](docs/assets/concept_art/sage_golden.png)
 ![Monarch](docs/assets/concept_art/monarch_throne.png)
 ![Hermit](docs/assets/concept_art/hermit_fisher.png)
 
@@ -35,8 +38,6 @@ MIT License · Made with love ☕
 A painterly 2D Metroidvania about threads, destiny, and the freedom to choose.
 
 📸 Screenshots / Art Direction (optional)
-
-(We can add images later — no rush)
 
 🎮 About the Game
 
