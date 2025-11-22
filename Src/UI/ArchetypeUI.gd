@@ -34,4 +34,3 @@ func show_grapple_prompt(text: String = "Q to attach"):
 func hide_grapple_prompt():
 	if grapple_popup:
 		grapple_popup.visible = false
-

@@ -31,4 +31,3 @@ static func get_all_archetypes() -> Array[String]:
 # Check if an archetype name is valid
 static func is_valid(archetype_name: String) -> bool:
 	return archetype_name in ARCHETYPE_COLORS
-
